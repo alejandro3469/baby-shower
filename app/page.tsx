@@ -21,8 +21,8 @@ export default function Home() {
         </h1>
       </div>
       {<motion.img
-        animate={{ y: [0, 60, 0] }}
-        transition={{ repeat: Infinity, duration: 3 }}
+        animate={{ y: [0, 40, 0] }}
+        transition={{ repeat: Infinity, duration: 4 }}
         className="banner-main-image"
         src="/winnie.png"
       />}
