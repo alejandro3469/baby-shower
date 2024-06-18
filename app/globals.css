@@ -51,9 +51,23 @@ h1 .shower {
   display: none;
 }
 
+
 .flower1 {
   left: 32px;
 }
 .flower2 {
+  right: 32px;
+}
+
+.bee-image {
+  position: absolute;
+  top: 10%;
+}
+.bee1 {
+  left: 32px;
+  width: 30px;
+}
+.bee2 {
+  width: 45px;
   right: 32px;
 }

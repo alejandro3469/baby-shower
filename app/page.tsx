@@ -41,6 +41,19 @@ export default function Home() {
         src="/winnie3.png"
       />
 
+      <motion.img
+        animate={{ y: [0, 10, 0] }}
+        transition={{ repeat: Infinity, duration: 6 }}
+        className="bee-image bee1"
+        src="/bee.png"
+      />
+      <motion.img
+        animate={{ y: [0, 10, 0] }}
+        transition={{ repeat: Infinity, duration: 6 }}
+        className="bee-image bee2"
+        src="/bee.png"
+      />
+
       <audio autoPlay loop>
         <source src="/cr_te_esperaba.mp3" />
       </audio>
