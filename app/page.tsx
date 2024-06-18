@@ -24,7 +24,7 @@ export default function Home() {
         animate={{ y: [0, 40, 0] }}
         transition={{ repeat: Infinity, duration: 4 }}
         className="banner-main-image"
-        src="/winnie.png"
+        src="/winnie2.png"
       />}
     </main>
   );
