@@ -23,13 +23,14 @@ h1 {
 }
 h1 .baby {
   font-size: 64px;
-  background-image: url("/glitter2.webp");
+  color: #FFD600;
+  /*background-image: url("/glitter2.webp");
   background-size: 50px;
   background-repeat: repeat;
-  text-transform: uppercase;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
+  text-transform: uppercase;
   font-weight: 700;
 }
 h1 .shower {
