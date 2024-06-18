@@ -21,14 +21,20 @@ export default function Home() {
           <span className={`${dancing_Script.className} shower`}>shower</span>
         </motion.h1>
       </div>
-      {
+      <motion.img
+          animate={{ rotate: 360 }}
+          transition={{ repeat: Infinity, duration: 6 }}
+          className="flower-image"
+          src="/flower1.png"
+        />
+      
         <motion.img
           animate={{ y: [0, 40, 0] }}
           transition={{ repeat: Infinity, duration: 4 }}
           className="banner-main-image"
           src="/winnie3.png"
         />
-      }
+      
     </main>
   );
 }

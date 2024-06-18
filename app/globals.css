@@ -12,6 +12,7 @@ main {
   align-items: center;
   gap: 0;
   justify-content: end !important;
+  position: relative;
 }
 h1 {
   display: flex;
@@ -36,4 +37,9 @@ h1 .shower {
 }
 .banner-main-image {
   width: 400px;
+}
+
+.flower-image {
+  width: 120px;
+  height: 120px;
 }
