@@ -44,6 +44,7 @@ h1 .shower {
   width: 60px;
   position: absolute;
   top: 40%;
+  display: none;
 }
 
 .flower1 {
