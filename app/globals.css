@@ -13,7 +13,7 @@ main {
   gap: 0;
   justify-content: end !important;
   position: relative;
-  background-color: #c8e9fb;
+  background-color: #c8e9fbc0;
 }
 h1 {
   display: flex;
