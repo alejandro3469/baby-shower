@@ -16,11 +16,7 @@ export default function Home() {
   return (
     <main className={`${poppins.className} ${styles.main}`}>
       <div>
-        <motion.h1
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
+        <motion.h1 animate={{ opacity: [0, 1] }} transition={{ duration: 4 }}>
           <div className="baby">Baby </div>
           <span className={`${dancing_Script.className} shower`}>shower</span>
         </motion.h1>
