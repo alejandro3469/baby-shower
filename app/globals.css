@@ -13,6 +13,7 @@ main {
   gap: 0;
   justify-content: end !important;
   position: relative;
+  background-color: #c8e9fb;
 }
 h1 {
   display: flex;
@@ -24,6 +25,8 @@ h1 {
 h1 .baby {
   font-size: 64px;
   color: #fec64b;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #aa463f;
   /*background-image: url("/glitter2.webp");
   background-size: 50px;
   background-repeat: repeat;
