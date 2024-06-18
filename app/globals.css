@@ -14,8 +14,15 @@ h1 {
   font-size: 62px;
 }
 h1 .baby {
-  font-size: 62px;
-  background-image: url("/public/brilliant.svg");
+  font-size: 64px;
+  background-image: url("/glitter.jpg");
+  background-size: 50px;
+  background-repeat: repeat;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 h1 .shower {
   font-size: 62px;

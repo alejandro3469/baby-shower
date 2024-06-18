@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { motion } from "framer-motion";
 import { Poppins, Dancing_Script } from 'next/font/google'
 const poppins = Poppins({
-  weight: '400',
+  weight: ['400', '600', '700'],
   subsets: ['latin'],
 })
 const dancing_Script = Dancing_Script({
@@ -17,7 +17,7 @@ export default function Home() {
     <main className={`${poppins.className} ${styles.main}`}>
       <div>
         <h1>
-          <span className="baby">Baby </span><span className={`${dancing_Script.className} shower`}>shower</span>
+          <div className="baby">Baby </div><span className={`${dancing_Script.className} shower`}>shower</span>
         </h1>
       </div>
       {<motion.img
