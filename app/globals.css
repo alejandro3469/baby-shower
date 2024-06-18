@@ -51,7 +51,6 @@ h1 .shower {
   display: none;
 }
 
-
 .flower1 {
   left: 32px;
 }
@@ -70,4 +69,6 @@ h1 .shower {
 .bee2 {
   width: 45px;
   right: 32px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
