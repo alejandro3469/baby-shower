@@ -25,13 +25,13 @@ export default function Home() {
         animate={{ rotate: 360 }}
         transition={{ repeat: Infinity, duration: 6 }}
         className="flower-image flower2"
-        src="/flower1.png"
+        src="/flower2.png"
       />
       <motion.img
         animate={{ rotate: 360 }}
         transition={{ repeat: Infinity, duration: 6 }}
         className="flower-image flower1"
-        src="/flower1.png"
+        src="/flower2.png"
       />
 
       <motion.img
