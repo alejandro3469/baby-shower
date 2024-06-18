@@ -38,7 +38,7 @@ export default function Home() {
         animate={{ y: [0, 40, 0] }}
         transition={{ repeat: Infinity, duration: 4 }}
         className="banner-main-image"
-        src="/winnie3.png"
+        src="/baby-pooh6.png"
       />
 
       <motion.img
