@@ -35,21 +35,21 @@ export default function Home() {
       />
 
       <motion.img
-        animate={{ y: [0, 40, 0] }}
+        animate={{ y: [0, 24, 0] }}
         transition={{ repeat: Infinity, duration: 4 }}
         className="banner-main-image"
-        src="/baby-pooh6.png"
+        src="/winnie3.png"
       />
 
       <motion.img
-        animate={{ y: [0, 10, 0] }}
+        animate={{ y: [0, 24, 0] }}
         transition={{ repeat: Infinity, duration: 6 }}
         className="bee-image bee1"
         src="/bee.png"
       />
       <motion.img
-        animate={{ y: [0, 10, 0] }}
-        transition={{ repeat: Infinity, duration: 6 }}
+        animate={{ y: [0, 16, 0] }}
+        transition={{ repeat: Infinity, duration: 4 }}
         className="bee-image bee2"
         src="/bee.png"
       />

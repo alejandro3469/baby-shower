@@ -32,7 +32,7 @@ h1 {
   width: 100vw;
   top: 0;
   left: 0;
-  margin-top: 32px;
+  margin-top: 64px;
   text-align: center;
   z-index: 100;
 }
@@ -53,14 +53,13 @@ h1 .baby {
 h1 .shower {
   font-size: 48px;
   color: #000;
-  
 }
 .banner-main-image {
-  height: 80%;
+  width: 100%;
   position: absolute;
   z-index: 0;
-
-  margin: auto;
+  bottom: 0;
+  margin-bottom: 64px;
 }
 
 .flower-image {
@@ -79,7 +78,7 @@ h1 .shower {
 
 .bee-image {
   position: absolute;
-  top: 10%;
+  top: 128px;
 }
 .bee1 {
   left: 32px;
