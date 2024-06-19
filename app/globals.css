@@ -4,8 +4,9 @@
   padding: 0;
 }
 main {
-  height: 100vh;
   width: 100vw;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -49,9 +50,11 @@ h1 .shower {
   
 }
 .banner-main-image {
-  height: 100%;
+  height: 80%;
   position: absolute;
   z-index: 0;
+
+  margin: auto;
 }
 
 .flower-image {
